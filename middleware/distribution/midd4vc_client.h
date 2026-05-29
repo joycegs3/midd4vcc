@@ -121,7 +121,8 @@ void midd4vc_submit_job(
     double lat,
     double lon,
     const int *args,
-    int argc);
+    int argc,
+    const container_spec_t *spec); // Parametro do container adicionado (TCC)
 
 void midd4vc_send_job_result(
     midd4vc_client_t *c,
